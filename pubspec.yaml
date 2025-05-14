@@ -1,0 +1,42 @@
+name: video_call_assigment
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  agora_rtc_engine: ^6.5.2
+  
+  # Firebase messaging for notifications
+  firebase_core: ^2.13.0
+  firebase_messaging: ^14.6.1
+  
+  shared_preferences: ^2.2.2
+  
+  get:
+  # CallKit for incoming call UI
+  flutter_callkit_incoming: ^2.5.2
+  
+  # Permission handling
+  permission_handler: ^10.2.0
+  flutter_local_notifications: ^19.2.0
+  # State management (optional)
+  provider: ^6.0.5
+  
+  # For storing user data
+ 
+  
+  # UI components
+  cupertino_icons: ^1.0.5
+  lottie: ^3.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
